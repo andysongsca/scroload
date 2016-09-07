@@ -1,0 +1,32 @@
+{
+  "name": "scroload",
+  "version": "1.0.0",
+  "description": "上拉加载更多,scroll load more, 手机, mobile, 移动端",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaomo/scroload.git"
+  },
+  "keywords": [
+    "移动",
+    "上拉",
+    "加载",
+    "更多"
+  ],
+  "author": "andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaomo/scroload/issues"
+  },
+  "homepage": "https://github.com/yaomo/scroload#readme"
+}
