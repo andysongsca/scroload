@@ -41,7 +41,7 @@
             _setScrollWindowHeight(me);
         });
 
-        me.$ele.on('scroll', function(e) {
+        me.$win.on('scroll', function(e) {
             me._scrollTop = me.$container.scrollTop();
             var isInLoadArea = me._windowHeight + me._scrollTop >= me._scrollContentHeight - me.ops.startLoadOffsetY ? true : false;
             if(!me._loading && isInLoadArea) {
